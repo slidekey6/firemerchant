@@ -1,0 +1,1640 @@
+body
+{
+   background-color: #DCDCDC;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#PageHeader1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 0px;
+   box-sizing: border-box;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 7777;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #F8F9FA;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2, #LayoutGrid1 > .col-3, #LayoutGrid1 > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2, #LayoutGrid1 > .col-3, #LayoutGrid1 > .col-4
+{
+   flex: 0 0 auto;
+   height: 77px;
+}
+#LayoutGrid1 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 16.66666667%;
+   max-width: 16.66666667%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+#LayoutGrid1 > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 16.66666667%;
+   max-width: 16.66666667%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+#LayoutGrid1 > .col-2 > .col-2-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 0 0 10px 10px;
+}
+#LayoutGrid1 > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 58.33333333%;
+   max-width: 58.33333333%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+#LayoutGrid1 > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 8.33333333%;
+   max-width: 8.33333333%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2, #LayoutGrid1 > .col-3, #LayoutGrid1 > .col-4
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+   height: auto;
+}
+}
+#wb_Icon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #4F4F4F;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 57px;
+   vertical-align: top;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
+   display:inline-block;
+   position:relative;
+}
+#wb_Icon1 a
+{
+   text-decoration: none;
+}
+#wb_Icon1 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_Icon1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#Icon1
+{
+   overflow: visible;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+#Icon1
+{
+   fill: #000000;
+   display: inline-block;
+   font-size: 23px;
+   vertical-align: middle;
+}
+#wb_Icon1:hover #Icon1
+{
+   fill: #000000;
+}
+#HorizontalLine1
+{
+   border-color: #A9A9A9;
+   border-style: solid;
+   border-bottom-width: 40px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0 0 0 20px;
+   padding: 0;
+   flex-grow: 0;
+   flex-shrink: 0;
+   align-self: auto;
+   transform: rotate(180deg);
+}
+#FlexContainer1
+{
+   display: flex;
+   position: absolute;
+   padding: 10px 0 10px 30px;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: flex-end;
+   align-items: flex-end;
+   align-content: flex-end;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEE2E6;
+   border-radius: 0px;
+   box-sizing: border-box;
+   font-size: 0;
+}
+#FlexContainer2
+{
+   display: flex;
+   position: absolute;
+   height: 77px;
+   padding: 10px 0 10px 10px;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEE2E6;
+   border-radius: 0px;
+   box-sizing: border-box;
+   font-size: 0;
+}
+#DepositLayer
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 10px;
+   box-shadow: 0px 0px 9px #000000;
+}
+#Bank
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#Bank .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#Bank .ui-secondary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M43%204%20C42%203%2c%2041%203%2c%2039%203%20C37%203%2c%2036%203%2c%2035%204%20L2%2038%20C1%2038%2c%201%2039%2c%201%2040%20C1%2041%2c%201%2041%2c%202%2042%20C2%2043%2c%203%2043%2c%204%2043%20C5%2043%2c%206%2043%2c%206%2042%20L8%2039%20L8%2065%20C8%2067%2c%209%2069%2c%2011%2071%20C12%2072%2c%2014%2073%2c%2017%2073%20L37%2073%20C38%2073%2c%2038%2073%2c%2039%2072%20C40%2071%2c%2040%2071%2c%2040%2070%20C40%2069%2c%2040%2068%2c%2039%2068%20C39%2067%2c%2038%2067%2c%2037%2067%20L17%2067%20C16%2067%2c%2016%2066%2c%2015%2066%20C15%2066%2c%2015%2065%2c%2015%2065%20L15%2034%20L39%209%20L72%2042%20C72%2043%2c%2073%2043%2c%2074%2043%20C75%2043%2c%2076%2043%2c%2076%2042%20C77%2041%2c%2078%2041%2c%2078%2040%20C78%2039%2c%2077%2038%2c%2077%2038%20L65%2026%20L65%2010%20C65%209%2c%2065%208%2c%2064%208%20C63%207%2c%2063%207%2c%2062%207%20L57%207%20C56%207%2c%2055%207%2c%2054%208%20C54%208%2c%2053%209%2c%2053%2010%20L53%2015Z%20%20M80%2060%20C80%2063%2c%2079%2066%2c%2077%2069%20C76%2072%2c%2073%2074%2c%2071%2075%20C68%2077%2c%2065%2078%2c%2062%2078%20C58%2078%2c%2055%2077%2c%2052%2076%20C50%2074%2c%2047%2072%2c%2046%2069%20C44%2066%2c%2043%2063%2c%2043%2060%20C43%2057%2c%2044%2054%2c%2046%2051%20C47%2048%2c%2049%2046%2c%2052%2044%20C55%2043%2c%2058%2042%2c%2062%2042%20C65%2042%2c%2068%2043%2c%2071%2044%20C74%2046%2c%2076%2048%2c%2077%2051%20C79%2054%2c%2080%2057%2c%2080%2060%20Z%20M62%2051%20C61%2051%2c%2061%2051%2c%2060%2051%20C60%2051%2c%2060%2052%2c%2060%2052%20L60%2058%20L54%2058%20C54%2058%2c%2053%2058%2c%2053%2058%20C53%2059%2c%2052%2059%2c%2052%2060%20C52%2060%2c%2053%2061%2c%2053%2061%20C53%2062%2c%2054%2062%2c%2054%2062%20L60%2062%20L60%2067%20C60%2068%2c%2060%2068%2c%2060%2069%20C61%2069%2c%2061%2069%2c%2062%2069%20C62%2069%2c%2062%2069%2c%2063%2069%20C63%2068%2c%2063%2068%2c%2063%2067%20L63%2062%20L69%2062%20C70%2062%2c%2070%2062%2c%2070%2061%20C71%2061%2c%2071%2060%2c%2071%2060%20C71%2059%2c%2071%2059%2c%2070%2058%20C70%2058%2c%2070%2058%2c%2069%2058%20L63%2058%20L63%2052%20C63%2052%2c%2063%2051%2c%2063%2051%20C62%2051%2c%2062%2051%2c%2062%2051%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   margin-left: 20px;
+   vertical-align: middle;
+   width: 20px;
+   height: 20px;
+}
+#Bank:hover .ui-secondary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M43%204%20C42%203%2c%2041%203%2c%2039%203%20C37%203%2c%2036%203%2c%2035%204%20L2%2038%20C1%2038%2c%201%2039%2c%201%2040%20C1%2041%2c%201%2041%2c%202%2042%20C2%2043%2c%203%2043%2c%204%2043%20C5%2043%2c%206%2043%2c%206%2042%20L8%2039%20L8%2065%20C8%2067%2c%209%2069%2c%2011%2071%20C12%2072%2c%2014%2073%2c%2017%2073%20L37%2073%20C38%2073%2c%2038%2073%2c%2039%2072%20C40%2071%2c%2040%2071%2c%2040%2070%20C40%2069%2c%2040%2068%2c%2039%2068%20C39%2067%2c%2038%2067%2c%2037%2067%20L17%2067%20C16%2067%2c%2016%2066%2c%2015%2066%20C15%2066%2c%2015%2065%2c%2015%2065%20L15%2034%20L39%209%20L72%2042%20C72%2043%2c%2073%2043%2c%2074%2043%20C75%2043%2c%2076%2043%2c%2076%2042%20C77%2041%2c%2078%2041%2c%2078%2040%20C78%2039%2c%2077%2038%2c%2077%2038%20L65%2026%20L65%2010%20C65%209%2c%2065%208%2c%2064%208%20C63%207%2c%2063%207%2c%2062%207%20L57%207%20C56%207%2c%2055%207%2c%2054%208%20C54%208%2c%2053%209%2c%2053%2010%20L53%2015Z%20%20M80%2060%20C80%2063%2c%2079%2066%2c%2077%2069%20C76%2072%2c%2073%2074%2c%2071%2075%20C68%2077%2c%2065%2078%2c%2062%2078%20C58%2078%2c%2055%2077%2c%2052%2076%20C50%2074%2c%2047%2072%2c%2046%2069%20C44%2066%2c%2043%2063%2c%2043%2060%20C43%2057%2c%2044%2054%2c%2046%2051%20C47%2048%2c%2049%2046%2c%2052%2044%20C55%2043%2c%2058%2042%2c%2062%2042%20C65%2042%2c%2068%2043%2c%2071%2044%20C74%2046%2c%2076%2048%2c%2077%2051%20C79%2054%2c%2080%2057%2c%2080%2060%20Z%20M62%2051%20C61%2051%2c%2061%2051%2c%2060%2051%20C60%2051%2c%2060%2052%2c%2060%2052%20L60%2058%20L54%2058%20C54%2058%2c%2053%2058%2c%2053%2058%20C53%2059%2c%2052%2059%2c%2052%2060%20C52%2060%2c%2053%2061%2c%2053%2061%20C53%2062%2c%2054%2062%2c%2054%2062%20L60%2062%20L60%2067%20C60%2068%2c%2060%2068%2c%2060%2069%20C61%2069%2c%2061%2069%2c%2062%2069%20C62%2069%2c%2062%2069%2c%2063%2069%20C63%2068%2c%2063%2068%2c%2063%2067%20L63%2062%20L69%2062%20C70%2062%2c%2070%2062%2c%2070%2061%20C71%2061%2c%2071%2060%2c%2071%2060%20C71%2059%2c%2071%2059%2c%2070%2058%20C70%2058%2c%2070%2058%2c%2069%2058%20L63%2058%20L63%2052%20C63%2052%2c%2063%2051%2c%2063%2051%20C62%2051%2c%2062%2051%2c%2062%2051%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Bank:active .ui-secondary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M43%204%20C42%203%2c%2041%203%2c%2039%203%20C37%203%2c%2036%203%2c%2035%204%20L2%2038%20C1%2038%2c%201%2039%2c%201%2040%20C1%2041%2c%201%2041%2c%202%2042%20C2%2043%2c%203%2043%2c%204%2043%20C5%2043%2c%206%2043%2c%206%2042%20L8%2039%20L8%2065%20C8%2067%2c%209%2069%2c%2011%2071%20C12%2072%2c%2014%2073%2c%2017%2073%20L37%2073%20C38%2073%2c%2038%2073%2c%2039%2072%20C40%2071%2c%2040%2071%2c%2040%2070%20C40%2069%2c%2040%2068%2c%2039%2068%20C39%2067%2c%2038%2067%2c%2037%2067%20L17%2067%20C16%2067%2c%2016%2066%2c%2015%2066%20C15%2066%2c%2015%2065%2c%2015%2065%20L15%2034%20L39%209%20L72%2042%20C72%2043%2c%2073%2043%2c%2074%2043%20C75%2043%2c%2076%2043%2c%2076%2042%20C77%2041%2c%2078%2041%2c%2078%2040%20C78%2039%2c%2077%2038%2c%2077%2038%20L65%2026%20L65%2010%20C65%209%2c%2065%208%2c%2064%208%20C63%207%2c%2063%207%2c%2062%207%20L57%207%20C56%207%2c%2055%207%2c%2054%208%20C54%208%2c%2053%209%2c%2053%2010%20L53%2015Z%20%20M80%2060%20C80%2063%2c%2079%2066%2c%2077%2069%20C76%2072%2c%2073%2074%2c%2071%2075%20C68%2077%2c%2065%2078%2c%2062%2078%20C58%2078%2c%2055%2077%2c%2052%2076%20C50%2074%2c%2047%2072%2c%2046%2069%20C44%2066%2c%2043%2063%2c%2043%2060%20C43%2057%2c%2044%2054%2c%2046%2051%20C47%2048%2c%2049%2046%2c%2052%2044%20C55%2043%2c%2058%2042%2c%2062%2042%20C65%2042%2c%2068%2043%2c%2071%2044%20C74%2046%2c%2076%2048%2c%2077%2051%20C79%2054%2c%2080%2057%2c%2080%2060%20Z%20M62%2051%20C61%2051%2c%2061%2051%2c%2060%2051%20C60%2051%2c%2060%2052%2c%2060%2052%20L60%2058%20L54%2058%20C54%2058%2c%2053%2058%2c%2053%2058%20C53%2059%2c%2052%2059%2c%2052%2060%20C52%2060%2c%2053%2061%2c%2053%2061%20C53%2062%2c%2054%2062%2c%2054%2062%20L60%2062%20L60%2067%20C60%2068%2c%2060%2068%2c%2060%2069%20C61%2069%2c%2061%2069%2c%2062%2069%20C62%2069%2c%2062%2069%2c%2063%2069%20C63%2068%2c%2063%2068%2c%2063%2067%20L63%2062%20L69%2062%20C70%2062%2c%2070%2062%2c%2070%2061%20C71%2061%2c%2071%2060%2c%2071%2060%20C71%2059%2c%2071%2059%2c%2070%2058%20C70%2058%2c%2070%2058%2c%2069%2058%20L63%2058%20L63%2052%20C63%2052%2c%2063%2051%2c%2063%2051%20C62%2051%2c%2062%2051%2c%2062%2051%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Bank.ui-corner-all
+{
+   border-bottom-left-radius: 3px;
+   border-top-left-radius: 3px;
+}
+#Bank.ui-corner-all
+{
+   border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+}
+#Bank.ui-button
+{
+   background-color: #0D6EFD;
+   background-image: none;
+   border: 0px solid #0D6EFD;
+   color: #FFFFFF;
+}
+#Bank.ui-state-hover, #Bank.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#Bank.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#Bank.ui-state-active, #Bank.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ButtonLayer
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 0px;
+}
+#Crypto
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#Crypto .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#Crypto .ui-secondary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M80%2040%20C80%2047%2c%2078%2054%2c%2074%2060%20L74%2060%20L74%2060%20C71%2066%2c%2066%2071%2c%2060%2074%20L60%2074%20L60%2074%20C54%2078%2c%2047%2080%2c%2040%2080%20C33%2080%2c%2026%2078%2c%2020%2074%20C14%2071%2c%209%2066%2c%206%2060%20C2%2054%2c%201%2047%2c%201%2040%20C1%2033%2c%202%2026%2c%206%2020%20C9%2014%2c%2014%209%2c%2020%206%20C26%202%2c%2033%201%2c%2040%201%20C47%201%2c%2054%202%2c%2060%206%20C66%2010%2c%2071%2014%2c%2074%2020%20C78%2026%2c%2080%2033%2c%2080%2040%20Z%20M56%2035%20C56%2032%2c%2056%2030%2c%2054%2029%20L54%2029%20L54%2029%20C53%2028%2c%2050%2026%2c%2047%2025%20L49%2018%20L49%2018%20L46%2018%20L46%2018%20L45%2024%20L45%2024%20C43%2024%2c%2041%2024%2c%2040%2023%20L42%2016%20L42%2016%20L39%2016%20L39%2016%20L37%2023%20L37%2023%20C36%2022%2c%2034%2022%2c%2033%2022%20L33%2022%20L33%2022%20L28%2021%20L28%2021%20L28%2024%20L28%2024%20C27%2024%2c%2027%2024%2c%2028%2024%20C29%2024%2c%2030%2024%2c%2030%2024%20C32%2025%2c%2033%2026%2c%2033%2028%20L31%2035%20L31%2035%20C30%2035%2c%2030%2035%2c%2030%2036%20C30%2036%2c%2030%2036%2c%2030%2036%20C30%2036%2c%2030%2036%2c%2030%2036%20L28%2047%20L28%2047%20C28%2048%2c%2027%2048%2c%2025%2048%20C25%2048%2c%2024%2048%2c%2023%2048%20C22%2048%2c%2022%2048%2c%2022%2048%20L21%2051%20L21%2051%20L26%2052%20L26%2052%20C26%2053%2c%2027%2053%2c%2027%2053%20C28%2053%2c%2028%2053%2c%2029%2053%20L27%2060%20L27%2060%20L30%2061%20L30%2061%20L32%2054%20L32%2054%20C34%2055%2c%2035%2055%2c%2037%2055%20L35%2062%20L35%2062%20L38%2063%20L38%2063%20L40%2056%20L40%2056%20C44%2057%2c%2047%2057%2c%2049%2056%20C52%2056%2c%2053%2054%2c%2055%2051%20C55%2049%2c%2055%2047%2c%2055%2045%20C54%2044%2c%2053%2042%2c%2051%2041%20C54%2040%2c%2056%2038%2c%2057%2035%20Z%20M48%2048%20C47%2051%2c%2045%2052%2c%2042%2052%20L42%2052%20L42%2052%20C39%2052%2c%2036%2051%2c%2035%2051%20L35%2051%20L35%2051%20C34%2051%2c%2034%2051%2c%2033%2051%20L36%2040%20L36%2040%20C36%2040%2c%2037%2040%2c%2037%2040%20C40%2040%2c%2042%2041%2c%2044%2042%20C47%2044%2c%2048%2046%2c%2048%2048%20Z%20M49%2034%20C48%2037%2c%2047%2038%2c%2044%2038%20L44%2038%20L44%2038%20C41%2038%2c%2039%2038%2c%2038%2037%20L38%2037%20L38%2037%20C37%2037%2c%2037%2037%2c%2037%2037%20L39%2027%20L39%2027%20C40%2027%2c%2040%2027%2c%2040%2027%20C42%2027%2c%2044%2028%2c%2046%2029%20C49%2030%2c%2050%2032%2c%2049%2035%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   margin-left: 5px;
+   vertical-align: middle;
+   width: 20px;
+   height: 20px;
+}
+#Crypto:hover .ui-secondary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M80%2040%20C80%2047%2c%2078%2054%2c%2074%2060%20L74%2060%20L74%2060%20C71%2066%2c%2066%2071%2c%2060%2074%20L60%2074%20L60%2074%20C54%2078%2c%2047%2080%2c%2040%2080%20C33%2080%2c%2026%2078%2c%2020%2074%20C14%2071%2c%209%2066%2c%206%2060%20C2%2054%2c%201%2047%2c%201%2040%20C1%2033%2c%202%2026%2c%206%2020%20C9%2014%2c%2014%209%2c%2020%206%20C26%202%2c%2033%201%2c%2040%201%20C47%201%2c%2054%202%2c%2060%206%20C66%2010%2c%2071%2014%2c%2074%2020%20C78%2026%2c%2080%2033%2c%2080%2040%20Z%20M56%2035%20C56%2032%2c%2056%2030%2c%2054%2029%20L54%2029%20L54%2029%20C53%2028%2c%2050%2026%2c%2047%2025%20L49%2018%20L49%2018%20L46%2018%20L46%2018%20L45%2024%20L45%2024%20C43%2024%2c%2041%2024%2c%2040%2023%20L42%2016%20L42%2016%20L39%2016%20L39%2016%20L37%2023%20L37%2023%20C36%2022%2c%2034%2022%2c%2033%2022%20L33%2022%20L33%2022%20L28%2021%20L28%2021%20L28%2024%20L28%2024%20C27%2024%2c%2027%2024%2c%2028%2024%20C29%2024%2c%2030%2024%2c%2030%2024%20C32%2025%2c%2033%2026%2c%2033%2028%20L31%2035%20L31%2035%20C30%2035%2c%2030%2035%2c%2030%2036%20C30%2036%2c%2030%2036%2c%2030%2036%20C30%2036%2c%2030%2036%2c%2030%2036%20L28%2047%20L28%2047%20C28%2048%2c%2027%2048%2c%2025%2048%20C25%2048%2c%2024%2048%2c%2023%2048%20C22%2048%2c%2022%2048%2c%2022%2048%20L21%2051%20L21%2051%20L26%2052%20L26%2052%20C26%2053%2c%2027%2053%2c%2027%2053%20C28%2053%2c%2028%2053%2c%2029%2053%20L27%2060%20L27%2060%20L30%2061%20L30%2061%20L32%2054%20L32%2054%20C34%2055%2c%2035%2055%2c%2037%2055%20L35%2062%20L35%2062%20L38%2063%20L38%2063%20L40%2056%20L40%2056%20C44%2057%2c%2047%2057%2c%2049%2056%20C52%2056%2c%2053%2054%2c%2055%2051%20C55%2049%2c%2055%2047%2c%2055%2045%20C54%2044%2c%2053%2042%2c%2051%2041%20C54%2040%2c%2056%2038%2c%2057%2035%20Z%20M48%2048%20C47%2051%2c%2045%2052%2c%2042%2052%20L42%2052%20L42%2052%20C39%2052%2c%2036%2051%2c%2035%2051%20L35%2051%20L35%2051%20C34%2051%2c%2034%2051%2c%2033%2051%20L36%2040%20L36%2040%20C36%2040%2c%2037%2040%2c%2037%2040%20C40%2040%2c%2042%2041%2c%2044%2042%20C47%2044%2c%2048%2046%2c%2048%2048%20Z%20M49%2034%20C48%2037%2c%2047%2038%2c%2044%2038%20L44%2038%20L44%2038%20C41%2038%2c%2039%2038%2c%2038%2037%20L38%2037%20L38%2037%20C37%2037%2c%2037%2037%2c%2037%2037%20L39%2027%20L39%2027%20C40%2027%2c%2040%2027%2c%2040%2027%20C42%2027%2c%2044%2028%2c%2046%2029%20C49%2030%2c%2050%2032%2c%2049%2035%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Crypto:active .ui-secondary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M80%2040%20C80%2047%2c%2078%2054%2c%2074%2060%20L74%2060%20L74%2060%20C71%2066%2c%2066%2071%2c%2060%2074%20L60%2074%20L60%2074%20C54%2078%2c%2047%2080%2c%2040%2080%20C33%2080%2c%2026%2078%2c%2020%2074%20C14%2071%2c%209%2066%2c%206%2060%20C2%2054%2c%201%2047%2c%201%2040%20C1%2033%2c%202%2026%2c%206%2020%20C9%2014%2c%2014%209%2c%2020%206%20C26%202%2c%2033%201%2c%2040%201%20C47%201%2c%2054%202%2c%2060%206%20C66%2010%2c%2071%2014%2c%2074%2020%20C78%2026%2c%2080%2033%2c%2080%2040%20Z%20M56%2035%20C56%2032%2c%2056%2030%2c%2054%2029%20L54%2029%20L54%2029%20C53%2028%2c%2050%2026%2c%2047%2025%20L49%2018%20L49%2018%20L46%2018%20L46%2018%20L45%2024%20L45%2024%20C43%2024%2c%2041%2024%2c%2040%2023%20L42%2016%20L42%2016%20L39%2016%20L39%2016%20L37%2023%20L37%2023%20C36%2022%2c%2034%2022%2c%2033%2022%20L33%2022%20L33%2022%20L28%2021%20L28%2021%20L28%2024%20L28%2024%20C27%2024%2c%2027%2024%2c%2028%2024%20C29%2024%2c%2030%2024%2c%2030%2024%20C32%2025%2c%2033%2026%2c%2033%2028%20L31%2035%20L31%2035%20C30%2035%2c%2030%2035%2c%2030%2036%20C30%2036%2c%2030%2036%2c%2030%2036%20C30%2036%2c%2030%2036%2c%2030%2036%20L28%2047%20L28%2047%20C28%2048%2c%2027%2048%2c%2025%2048%20C25%2048%2c%2024%2048%2c%2023%2048%20C22%2048%2c%2022%2048%2c%2022%2048%20L21%2051%20L21%2051%20L26%2052%20L26%2052%20C26%2053%2c%2027%2053%2c%2027%2053%20C28%2053%2c%2028%2053%2c%2029%2053%20L27%2060%20L27%2060%20L30%2061%20L30%2061%20L32%2054%20L32%2054%20C34%2055%2c%2035%2055%2c%2037%2055%20L35%2062%20L35%2062%20L38%2063%20L38%2063%20L40%2056%20L40%2056%20C44%2057%2c%2047%2057%2c%2049%2056%20C52%2056%2c%2053%2054%2c%2055%2051%20C55%2049%2c%2055%2047%2c%2055%2045%20C54%2044%2c%2053%2042%2c%2051%2041%20C54%2040%2c%2056%2038%2c%2057%2035%20Z%20M48%2048%20C47%2051%2c%2045%2052%2c%2042%2052%20L42%2052%20L42%2052%20C39%2052%2c%2036%2051%2c%2035%2051%20L35%2051%20L35%2051%20C34%2051%2c%2034%2051%2c%2033%2051%20L36%2040%20L36%2040%20C36%2040%2c%2037%2040%2c%2037%2040%20C40%2040%2c%2042%2041%2c%2044%2042%20C47%2044%2c%2048%2046%2c%2048%2048%20Z%20M49%2034%20C48%2037%2c%2047%2038%2c%2044%2038%20L44%2038%20L44%2038%20C41%2038%2c%2039%2038%2c%2038%2037%20L38%2037%20L38%2037%20C37%2037%2c%2037%2037%2c%2037%2037%20L39%2027%20L39%2027%20C40%2027%2c%2040%2027%2c%2040%2027%20C42%2027%2c%2044%2028%2c%2046%2029%20C49%2030%2c%2050%2032%2c%2049%2035%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Crypto.ui-corner-all
+{
+   border-bottom-left-radius: 3px;
+   border-top-left-radius: 3px;
+}
+#Crypto.ui-corner-all
+{
+   border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+}
+#Crypto.ui-button
+{
+   background-color: #0D6EFD;
+   background-image: none;
+   border: 0px solid #0D6EFD;
+   color: #FFFFFF;
+}
+#Crypto.ui-state-hover, #Crypto.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#Crypto.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#Crypto.ui-state-active, #Crypto.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#Paypal
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#Paypal .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#Paypal .ui-secondary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M67%2019%20C67%2016%2c%2067%2014%2c%2067%2012%20C66%2010%2c%2065%208%2c%2063%206%20C60%202%2c%2053%200%2c%2044%200%20L20%200%20C19%200%2c%2018%200%2c%2017%201%20C16%201%2c%2016%202%2c%2016%203%20L5%2068%20C5%2069%2c%205%2069%2c%206%2070%20C7%2071%2c%207%2071%2c%208%2071%20L21%2071%20L20%2076%20C20%2078%2c%2020%2079%2c%2021%2080%20C22%2081%2c%2023%2081%2c%2024%2081%20L37%2081%20C38%2081%2c%2039%2081%2c%2040%2080%20C41%2079%2c%2042%2078%2c%2042%2077%20L45%2060%20C45%2060%2c%2045%2059%2c%2045%2059%20C45%2059%2c%2045%2059%2c%2045%2059%20L47%2059%20C54%2059%2c%2060%2058%2c%2065%2054%20C67%2053%2c%2068%2051%2c%2070%2049%20C72%2046%2c%2074%2042%2c%2074%2038%20C76%2031%2c%2075%2026%2c%2071%2022%20C70%2020%2c%2069%2019%2c%2067%2019%20Z%20M30%2045%20C30%2045%2c%2030%2045%2c%2031%2045%20L38%2045%20C45%2045%2c%2052%2043%2c%2056%2040%20C62%2036%2c%2065%2030%2c%2067%2022%20L67%2022%20C67%2023%2c%2067%2024%2c%2068%2024%20C71%2027%2c%2071%2032%2c%2070%2038%20C69%2044%2c%2066%2048%2c%2062%2051%20C59%2054%2c%2054%2055%2c%2048%2055%20L45%2055%20C44%2055%2c%2043%2056%2c%2042%2056%20C41%2057%2c%2041%2058%2c%2040%2059%20L38%2076%20C38%2076%2c%2038%2077%2c%2037%2077%20C37%2077%2c%2037%2077%2c%2037%2077%20L24%2077%20C24%2077%2c%2024%2077%2c%2024%2077%20C24%2077%2c%2024%2077%2c%2024%2077%20L25%2070Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   margin-left: 5px;
+   vertical-align: middle;
+   width: 20px;
+   height: 20px;
+}
+#Paypal:hover .ui-secondary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M67%2019%20C67%2016%2c%2067%2014%2c%2067%2012%20C66%2010%2c%2065%208%2c%2063%206%20C60%202%2c%2053%200%2c%2044%200%20L20%200%20C19%200%2c%2018%200%2c%2017%201%20C16%201%2c%2016%202%2c%2016%203%20L5%2068%20C5%2069%2c%205%2069%2c%206%2070%20C7%2071%2c%207%2071%2c%208%2071%20L21%2071%20L20%2076%20C20%2078%2c%2020%2079%2c%2021%2080%20C22%2081%2c%2023%2081%2c%2024%2081%20L37%2081%20C38%2081%2c%2039%2081%2c%2040%2080%20C41%2079%2c%2042%2078%2c%2042%2077%20L45%2060%20C45%2060%2c%2045%2059%2c%2045%2059%20C45%2059%2c%2045%2059%2c%2045%2059%20L47%2059%20C54%2059%2c%2060%2058%2c%2065%2054%20C67%2053%2c%2068%2051%2c%2070%2049%20C72%2046%2c%2074%2042%2c%2074%2038%20C76%2031%2c%2075%2026%2c%2071%2022%20C70%2020%2c%2069%2019%2c%2067%2019%20Z%20M30%2045%20C30%2045%2c%2030%2045%2c%2031%2045%20L38%2045%20C45%2045%2c%2052%2043%2c%2056%2040%20C62%2036%2c%2065%2030%2c%2067%2022%20L67%2022%20C67%2023%2c%2067%2024%2c%2068%2024%20C71%2027%2c%2071%2032%2c%2070%2038%20C69%2044%2c%2066%2048%2c%2062%2051%20C59%2054%2c%2054%2055%2c%2048%2055%20L45%2055%20C44%2055%2c%2043%2056%2c%2042%2056%20C41%2057%2c%2041%2058%2c%2040%2059%20L38%2076%20C38%2076%2c%2038%2077%2c%2037%2077%20C37%2077%2c%2037%2077%2c%2037%2077%20L24%2077%20C24%2077%2c%2024%2077%2c%2024%2077%20C24%2077%2c%2024%2077%2c%2024%2077%20L25%2070Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Paypal:active .ui-secondary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2080%2080%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M67%2019%20C67%2016%2c%2067%2014%2c%2067%2012%20C66%2010%2c%2065%208%2c%2063%206%20C60%202%2c%2053%200%2c%2044%200%20L20%200%20C19%200%2c%2018%200%2c%2017%201%20C16%201%2c%2016%202%2c%2016%203%20L5%2068%20C5%2069%2c%205%2069%2c%206%2070%20C7%2071%2c%207%2071%2c%208%2071%20L21%2071%20L20%2076%20C20%2078%2c%2020%2079%2c%2021%2080%20C22%2081%2c%2023%2081%2c%2024%2081%20L37%2081%20C38%2081%2c%2039%2081%2c%2040%2080%20C41%2079%2c%2042%2078%2c%2042%2077%20L45%2060%20C45%2060%2c%2045%2059%2c%2045%2059%20C45%2059%2c%2045%2059%2c%2045%2059%20L47%2059%20C54%2059%2c%2060%2058%2c%2065%2054%20C67%2053%2c%2068%2051%2c%2070%2049%20C72%2046%2c%2074%2042%2c%2074%2038%20C76%2031%2c%2075%2026%2c%2071%2022%20C70%2020%2c%2069%2019%2c%2067%2019%20Z%20M30%2045%20C30%2045%2c%2030%2045%2c%2031%2045%20L38%2045%20C45%2045%2c%2052%2043%2c%2056%2040%20C62%2036%2c%2065%2030%2c%2067%2022%20L67%2022%20C67%2023%2c%2067%2024%2c%2068%2024%20C71%2027%2c%2071%2032%2c%2070%2038%20C69%2044%2c%2066%2048%2c%2062%2051%20C59%2054%2c%2054%2055%2c%2048%2055%20L45%2055%20C44%2055%2c%2043%2056%2c%2042%2056%20C41%2057%2c%2041%2058%2c%2040%2059%20L38%2076%20C38%2076%2c%2038%2077%2c%2037%2077%20C37%2077%2c%2037%2077%2c%2037%2077%20L24%2077%20C24%2077%2c%2024%2077%2c%2024%2077%20C24%2077%2c%2024%2077%2c%2024%2077%20L25%2070Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Paypal.ui-corner-all
+{
+   border-bottom-left-radius: 3px;
+   border-top-left-radius: 3px;
+}
+#Paypal.ui-corner-all
+{
+   border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+}
+#Paypal.ui-button
+{
+   background-color: #0D6EFD;
+   background-image: none;
+   border: 0px solid #0D6EFD;
+   color: #FFFFFF;
+}
+#Paypal.ui-state-hover, #Paypal.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#Paypal.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#Paypal.ui-state-active, #Paypal.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#BankLayer
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#AccountName
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#AccountName:focus
+{
+   outline: 0;
+}
+#AccountNumber
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#AccountNumber:focus
+{
+   outline: 0;
+}
+#SwiftCode
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#SwiftCode:focus
+{
+   outline: 0;
+}
+#Iban
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Iban:focus
+{
+   outline: 0;
+}
+#BankAddress
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 12px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#BankAddress:focus
+{
+   outline: 0;
+}
+#BankName
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#BankName:focus
+{
+   outline: 0;
+}
+#SortCode
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#SortCode:focus
+{
+   outline: 0;
+}
+#AccountNameLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#AccountNameLabel:focus
+{
+   outline: 0;
+}
+#AccountNumberLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#AccountNumberLabel:focus
+{
+   outline: 0;
+}
+#SwiftCodeLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#SwiftCodeLabel:focus
+{
+   outline: 0;
+}
+#IbanLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#IbanLabel:focus
+{
+   outline: 0;
+}
+#BankAddressLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#BankAddressLabel:focus
+{
+   outline: 0;
+}
+#BankNameLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#BankNameLabel:focus
+{
+   outline: 0;
+}
+#SortCodeLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#SortCodeLabel:focus
+{
+   outline: 0;
+}
+#PaypalLayer
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#UkPaypal
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#UkPaypal:focus
+{
+   outline: 0;
+}
+#UsaPaypal
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#UsaPaypal:focus
+{
+   outline: 0;
+}
+#EurPaypal
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#EurPaypal:focus
+{
+   outline: 0;
+}
+#PayPalUkLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#PayPalUkLabel:focus
+{
+   outline: 0;
+}
+#PayPalUsaLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#PayPalUsaLabel:focus
+{
+   outline: 0;
+}
+#PayPalEurLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#PayPalEurLabel:focus
+{
+   outline: 0;
+}
+#CryptoLayer
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#Btc
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Btc:focus
+{
+   outline: 0;
+}
+#Usdt
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Usdt:focus
+{
+   outline: 0;
+}
+#Ripple
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Ripple:focus
+{
+   outline: 0;
+}
+#Dodge
+{
+   line-height: 20px;
+   margin: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Dodge:focus
+{
+   outline: 0;
+}
+#BtcLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#BtcLabel:focus
+{
+   outline: 0;
+}
+#UsdtLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#UsdtLabel:focus
+{
+   outline: 0;
+}
+#RippleLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#RippleLabel:focus
+{
+   outline: 0;
+}
+#DodgeLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#DodgeLabel:focus
+{
+   outline: 0;
+}
+#wb_NameCopy
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#NameCopy
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#NameCopy i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_NameCopy:hover #NameCopy i
+{
+   color: #0D6EFD;
+}
+#wb_Icon2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon2
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon2 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon2:hover #Icon2 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon3
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon3 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon3:hover #Icon3 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon4
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon4 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon4:hover #Icon4 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon5
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon5 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon5:hover #Icon5 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon6
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon6 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon6:hover #Icon6 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon7
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon7 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon7:hover #Icon7 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon8
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon8 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon8:hover #Icon8 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon9
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon9 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon9:hover #Icon9 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon10
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon10 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon10:hover #Icon10 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon11
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon11
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon11 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon11:hover #Icon11 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon12
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon12
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon12 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon12:hover #Icon12 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon13
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon13
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon13 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon13:hover #Icon13 i
+{
+   color: #0D6EFD;
+}
+#wb_Icon14
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon14
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon14 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon14:hover #Icon14 i
+{
+   color: #0D6EFD;
+}
+#RippleTagLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#RippleTagLabel:focus
+{
+   outline: 0;
+}
+#RippleTag
+{
+   box-sizing: border-box;
+   line-height: 20px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   width: 100%;
+   height: 100%;
+   padding: 4px 4px 4px 4px;
+}
+#RippleTag:focus
+{
+   outline: 0;
+}
+#wb_RippleTag
+{
+   position: relative;
+   margin: 0;
+}
+#RippleTag.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#RippleTag.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#RippleTag.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#RippleTag.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Icon15
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon15
+{
+   height: 20px;
+   width: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#Icon15 i
+{
+   color: #4F4F4F;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon15:hover #Icon15 i
+{
+   color: #0D6EFD;
+}
+#page-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f2f5; /* Light background color for the preloader */
+    display: flex; /* Ensures it's visible by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 99999; /* Very high z-index to cover everything */
+    transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+    opacity: 1; /* Visible by default */
+    visibility: visible; /* Visible by default */
+}
+
+#page-preloader.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; /* Important: allows clicks to pass through when hidden */
+}
+
+/* Styles for the page preloader's spinner */
+.page-spinner {
+    border: 5px solid rgba(0, 0, 0, 0.1); /* Lighter base for the spinner */
+    border-top: 5px solid #007bff; /* More prominent blue for the moving part */
+    border-radius: 50%;
+    width: 50px; /* Larger size for the page spinner */
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+/* Add the @keyframes spin directly here too for robustness */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
