@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Merchantbnk International bank</title>
+<meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
+<link href="fontawesome6.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&800&subset=latin&display=swap" rel="stylesheet">
+<link href="Merchant.css" rel="stylesheet">
+<link href="deposit.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="wb.validation.min.js"></script>
+<script src="wwb20.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#RippleTag").validate(
+   {
+      required: false,
+      bootstrap: true,
+      type: 'custom',
+      param: /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/,
+      color_text: '#000000',
+      color_hint: '#00FF00',
+      color_error: '#FF0000',
+      color_border: '#808080',
+      nohint: false,
+      font_family: 'Arial',
+      font_size: '13px',
+      position: 'topleft',
+      offsetx: 0,
+      offsety: 0,
+      effect: 'none',
+      error_text: ''
+   });
+});
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+<script>
+  window.addEventListener('load', function () {
+    const preloader = document.getElementById('page-preloader');
+    if (preloader) {
+      preloader.classList.add('hidden');
+    }
+  });
+</script><div id="page-preloader">
+    <div class="page-spinner"></div>
+</div>
+<div id="PageHeader1" style="position:absolute;text-align:left;left:0px;top:0px;width:100%;height:80px;z-index:7777;">
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="col-1">
+<div id="FlexContainer1" style="left:15px;top:0px;width:60px;height:77px;z-index:2;">
+<div id="wb_Icon1" style="display:inline-block;width:23px;height:57px;text-align:center;z-index:0;">
+<a href="#" onclick="history.back();return false;"><svg id="Icon1" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M82 466 C70 479, 65 495, 65 512 L65 512 L65 512 C65 529, 70 545, 82 558 L402 878 L402 878 C415 890, 430 896, 449 896 C465 896, 480 890, 494 878 C506 865, 512 849, 512 833 C512 815, 506 799, 494 786 L282 577 L282 577 L896 577 L896 577 C914 577, 930 570, 942 558 C954 546, 961 531, 961 512 C961 493, 954 478, 942 466 C930 454, 914 449, 896 449 L282 449 L282 449 L494 238 L494 238 C506 225, 512 209, 512 193 C512 175, 506 159, 494 146 C480 134, 465 128, 449 128 C430 128, 415 134, 402 146 L82 466Z "/>
+</svg>
+</a>
+</div>
+</div>
+<div id="FlexContainer2" style="left:75px;top:0px;width:19px;height:77px;z-index:3;">
+<hr id="HorizontalLine1" style="display:block;width:1px;">
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+</div>
+</div>
+<div class="col-3">
+</div>
+<div class="col-4">
+</div>
+</div>
+</div>
+</div>
+<div id="DepositLayer" style="position:absolute;text-align:left;left:0px;top:91px;width:390px;height:553px;z-index:112;">
+<div id="ButtonLayer" style="position:absolute;text-align:left;left:36px;top:27px;width:319px;height:44px;z-index:59;">
+<button type="button" id="Bank" onclick="ShowObject('BankLayer', 1);ShowObject('CryptoLayer', 0);ShowObject('PaypalLayer', 0);return false;" name="" value="BANK" class="ui-button ui-corner-all" style="position:absolute;left:0px;top:0px;width:100px;height:44px;z-index:11;">BANK<span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span></button>
+<button type="button" id="Crypto" onclick="ShowObject('CryptoLayer', 1);ShowObject('BankLayer', 0);ShowObject('PaypalLayer', 0);return false;" name="" value="CRYPTO" class="ui-button ui-corner-all" style="position:absolute;left:219px;top:0px;width:100px;height:44px;z-index:12;">CRYPTO<span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span></button>
+<button type="button" id="Paypal" onclick="ShowObject('PaypalLayer', 1);ShowObject('CryptoLayer', 0);ShowObject('BankLayer', 0);return false;" name="" value="PAYPAL" class="ui-button ui-corner-all" style="position:absolute;left:110px;top:0px;width:100px;height:44px;z-index:13;">PAYPAL<span class="ui-button-icon-space"> </span><span class="ui-button-icon ui-icon ui-secondary"></span></button>
+</div>
+<div id="BankLayer" style="position:absolute;text-align:left;left:0px;top:82px;width:390px;height:459px;z-index:60;">
+<input type="text" id="AccountName" style="position:absolute;left:11px;top:36px;width:340px;height:20px;z-index:14;" name="Editbox1" value="SUNDAY GABRIEL" readonly autocomplete="off" spellcheck="false">
+<input type="text" id="AccountNumber" style="position:absolute;left:11px;top:100px;width:340px;height:20px;z-index:15;" name="Editbox1" value="35528496" readonly autocomplete="off" spellcheck="false">
+<input type="text" id="SwiftCode" style="position:absolute;left:11px;top:227px;width:340px;height:20px;z-index:16;" name="Editbox1" value="CLJUGB21XXX" readonly autocomplete="off" spellcheck="false">
+<input type="text" id="Iban" style="position:absolute;left:11px;top:164px;width:340px;height:20px;z-index:17;" name="Editbox1" value="GB64CLJU04130735528496" readonly autocomplete="off" spellcheck="false">
+<input type="text" id="BankAddress" style="position:absolute;left:11px;top:419px;width:340px;height:20px;z-index:18;" name="Editbox1" value="4th Floor Imperial House, 15 Kingsway, London, United Kingdom, WC2B 6UN" readonly autocomplete="off" spellcheck="false">
+<input type="text" id="BankName" style="position:absolute;left:11px;top:355px;width:340px;height:20px;z-index:19;" name="Editbox1" value="Clear Junction Limited" readonly autocomplete="off" spellcheck="false">
+<input type="text" id="SortCode" style="position:absolute;left:11px;top:291px;width:340px;height:20px;z-index:20;" name="Editbox1" value="041307" readonly autocomplete="off" spellcheck="false">
+<label for="AccountName" id="AccountNameLabel" style="position:absolute;left:11px;top:10px;width:340px;height:18px;line-height:18px;z-index:21;">ACCOUNT NAME</label>
+<label for="AccountNumber" id="AccountNumberLabel" style="position:absolute;left:11px;top:74px;width:340px;height:18px;line-height:18px;z-index:22;">ACCOUNT NUMBER</label>
+<label for="SwiftCode" id="SwiftCodeLabel" style="position:absolute;left:11px;top:201px;width:340px;height:18px;line-height:18px;z-index:23;">SWIFT CODE</label>
+<label for="Iban" id="IbanLabel" style="position:absolute;left:11px;top:138px;width:340px;height:18px;line-height:18px;z-index:24;">IBAN</label>
+<label for="BankAddress" id="BankAddressLabel" style="position:absolute;left:11px;top:393px;width:340px;height:18px;line-height:18px;z-index:25;">BANK ADDRESS</label>
+<label for="BankName" id="BankNameLabel" style="position:absolute;left:11px;top:329px;width:340px;height:18px;line-height:18px;z-index:26;">BANK NAME</label>
+<label for="SortCode" id="SortCodeLabel" style="position:absolute;left:11px;top:265px;width:340px;height:18px;line-height:18px;z-index:27;">SORT CODE</label>
+<div id="wb_NameCopy" style="position:absolute;left:359px;top:40px;width:20px;height:20px;text-align:center;z-index:28;">
+<div id="NameCopy" onclick="copyText('AccountName', 'ACCOUNT NAME')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon2" style="position:absolute;left:359px;top:104px;width:20px;height:20px;text-align:center;z-index:29;">
+<div id="Icon2" onclick="copyText('AccountNumber', 'ACCOUNT NUMBER')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon3" style="position:absolute;left:359px;top:231px;width:20px;height:20px;text-align:center;z-index:30;">
+<div id="Icon3" onclick="copyText('SwiftCode', 'SWIFT CODE')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon4" style="position:absolute;left:359px;top:168px;width:20px;height:20px;text-align:center;z-index:31;">
+<div id="Icon4" onclick="copyText('Iban', 'IBAN')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon6" style="position:absolute;left:359px;top:359px;width:20px;height:20px;text-align:center;z-index:32;">
+<div id="Icon6" onclick="copyText('BankName', 'BANK NAME')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon5" style="position:absolute;left:359px;top:295px;width:20px;height:20px;text-align:center;z-index:33;">
+<div id="Icon5" onclick="copyText('SortCode', 'SORT CODE')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon7" style="position:absolute;left:359px;top:423px;width:20px;height:20px;text-align:center;z-index:34;">
+<div id="Icon7" onclick="copyText('BankAddress', 'BANK ADDRESS')"><i class="fa fa-copy"></i></div></div>
+</div>
+<div id="PaypalLayer" style="position:absolute;text-align:left;visibility:hidden;left:3px;top:82px;width:384px;height:459px;z-index:61;">
+<input type="text" id="UkPaypal" style="position:absolute;left:11px;top:36px;width:340px;height:20px;z-index:35;" name="Editbox1" value="globalraygraphixpros@gmail.com" readonly autocomplete="off" spellcheck="false">
+<label for="UkPaypal" id="PayPalUkLabel" style="position:absolute;left:11px;top:10px;width:340px;height:18px;line-height:18px;z-index:36;">EMMANUEL GABRIEL</label>
+<label for="EurPaypal" id="PayPalEurLabel" style="position:absolute;left:11px;top:331px;width:340px;height:18px;line-height:18px;z-index:37;">PAYPAL EUR</label>
+<input type="text" id="EurPaypal" style="position:absolute;left:11px;top:357px;width:340px;height:20px;z-index:38;" name="Editbox1" value="eur paypal coming soon!!!" readonly autocomplete="off" spellcheck="false">
+<label for="UsaPaypal" id="PayPalUsaLabel" style="position:absolute;left:11px;top:172px;width:340px;height:18px;line-height:18px;z-index:39;">PAYPAL USD</label>
+<input type="text" id="UsaPaypal" style="position:absolute;left:11px;top:198px;width:340px;height:20px;z-index:40;" name="Editbox1" value="usd paypal comingsoon!!!" readonly autocomplete="off" spellcheck="false">
+<div id="wb_Icon8" style="position:absolute;left:364px;top:40px;width:20px;height:20px;text-align:center;z-index:41;">
+<div id="Icon8" onclick="copyText('UkPaypal', 'PAYPAL FOR EMMANUEL GABRIEL')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon14" style="position:absolute;left:364px;top:202px;width:20px;height:20px;text-align:center;z-index:42;">
+<div id="Icon14" onclick="copyText('UsaPaypal', 'PAYPAL SUNDAY GABRIEL')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon10" style="position:absolute;left:364px;top:361px;width:20px;height:20px;text-align:center;z-index:43;">
+<div id="Icon10" onclick="copyText('EurPaypal', 'PAYPAL EUR')"><i class="fa fa-copy"></i></div></div>
+</div>
+<div id="CryptoLayer" style="position:absolute;text-align:left;visibility:hidden;left:3px;top:84px;width:385px;height:399px;z-index:62;">
+<input type="text" id="Btc" style="position:absolute;left:11px;top:36px;width:340px;height:20px;z-index:44;" name="Editbox1" value="31wjW6dhGq2MPCbnTnWEqEyE9jNXF1dyUB" readonly autocomplete="off" spellcheck="false">
+<input type="text" id="Usdt" style="position:absolute;left:12px;top:121px;width:340px;height:20px;z-index:45;" name="Editbox1" value="TXVMaE3DWchQLFUcZyEVBBmBBhEd8PXQYY" readonly autocomplete="off" spellcheck="false">
+<input type="text" id="Dodge" style="position:absolute;left:11px;top:208px;width:340px;height:20px;z-index:46;" name="Editbox1" value="D6B9d1fkc5fEznFXeYKCkrxKE7XNiqoDMc" readonly autocomplete="off" spellcheck="false">
+<label for="Btc" id="BtcLabel" style="position:absolute;left:11px;top:10px;width:340px;height:18px;line-height:18px;z-index:47;">BITCOIN (BTC)</label>
+<label for="Usdt" id="UsdtLabel" style="position:absolute;left:12px;top:95px;width:340px;height:18px;line-height:18px;z-index:48;">USDT (TRC20)</label>
+<label for="Dodge" id="DodgeLabel" style="position:absolute;left:11px;top:182px;width:340px;height:18px;line-height:18px;z-index:49;">DODGE</label>
+<label for="Ripple" id="RippleLabel" style="position:absolute;left:12px;top:274px;width:340px;height:18px;line-height:18px;z-index:50;">RIPPLE (XRP)</label>
+<input type="text" id="Ripple" style="position:absolute;left:12px;top:300px;width:340px;height:20px;z-index:51;" name="Editbox1" value="rMsYKfSMEAVKUXiS7Q7v5VhxXo1jErkK6S" readonly autocomplete="off" spellcheck="false">
+<div id="wb_Icon11" style="position:absolute;left:365px;top:40px;width:20px;height:20px;text-align:center;z-index:52;">
+<div id="Icon11" onclick="copyText('Btc', 'BITCOIN (BTC)')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon12" style="position:absolute;left:365px;top:125px;width:20px;height:20px;text-align:center;z-index:53;">
+<div id="Icon12" onclick="copyText('Usdt', 'USDT (TRC20)')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon13" style="position:absolute;left:365px;top:212px;width:20px;height:20px;text-align:center;z-index:54;">
+<div id="Icon13" onclick="copyText('Dodge', 'DODGE')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_Icon9" style="position:absolute;left:365px;top:304px;width:20px;height:20px;text-align:center;z-index:55;">
+<div id="Icon9" onclick="copyText('Ripple', 'RIPPLE (XRP)')"><i class="fa fa-copy"></i></div></div>
+<div id="wb_RippleTag" style="position:absolute;left:12px;top:354px;width:348px;height:28px;z-index:56;">
+<input type="text" id="RippleTag" style="" name="Editbox1" value="349771514" readonly autocomplete="off" spellcheck="false"></div>
+<label for="RippleTag" id="RippleTagLabel" style="position:absolute;left:12px;top:328px;width:340px;height:18px;line-height:18px;z-index:57;">RIPPLE (TAG)</label>
+<div id="wb_Icon15" style="position:absolute;left:365px;top:358px;width:20px;height:20px;text-align:center;z-index:58;">
+<div id="Icon15" onclick="copyText('RippleTag', 'RIPPLE (TAG)')"><i class="fa fa-copy"></i></div></div>
+</div>
+</div>
+</body>
+</html>

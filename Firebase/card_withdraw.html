@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Merchantbnk International bank</title>
+<meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
+<link href="fontawesome6.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&800,800&subset=latin&display=swap" rel="stylesheet">
+<link href="Merchant.css" rel="stylesheet">
+<link href="card_withdraw.css" rel="stylesheet">
+<script>
+function submitLayer4()
+{
+   var regexp;
+   var cardAmountInput = document.getElementById('cardAmountInput');
+   if (!(cardAmountInput.disabled || cardAmountInput.style.display === 'none' || cardAmountInput.style.visibility === 'hidden'))
+   {
+      regexp = /^[0-9-,]*$/;
+      if (!regexp.test(cardAmountInput.value))
+      {
+         alert("Please enter only digit and \",\" characters in the \"Editbox1\" field.");
+         cardAmountInput.focus();
+         return false;
+      }
+      if (cardAmountInput.value == "")
+      {
+         alert("Please enter a value for the \"Editbox1\" field.");
+         cardAmountInput.focus();
+         return false;
+      }
+      if (cardAmountInput.value != document.getElementById('Label2').value)
+      {
+         alert("Values must be identical");
+         cardAmountInput.focus();
+         return false;
+      }
+   }
+   var eurCardBalance = document.getElementById('eurCardBalance');
+   if (!(eurCardBalance.disabled || eurCardBalance.style.display === 'none' || eurCardBalance.style.visibility === 'hidden'))
+   {
+      regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/;
+      if (eurCardBalance.value.length != 0 && !regexp.test(eurCardBalance.value))
+      {
+         alert("Please enter only letter characters in the \"eurWitBalance\" field.");
+         eurCardBalance.focus();
+         return false;
+      }
+   }
+   return true;
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="page-preloader">
+    <div class="page-spinner"></div>
+</div>
+<div id="PageHeader1" style="position:absolute;text-align:left;left:0px;top:0px;width:100%;height:80px;z-index:7777;">
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="col-1">
+<div id="FlexContainer1" style="left:15px;top:0px;width:60px;height:77px;z-index:2;">
+<div id="wb_Icon1" style="display:inline-block;width:23px;height:57px;text-align:center;z-index:0;">
+<a href="#" onclick="history.back();return false;"><svg id="Icon1" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M82 466 C70 479, 65 495, 65 512 L65 512 L65 512 C65 529, 70 545, 82 558 L402 878 L402 878 C415 890, 430 896, 449 896 C465 896, 480 890, 494 878 C506 865, 512 849, 512 833 C512 815, 506 799, 494 786 L282 577 L282 577 L896 577 L896 577 C914 577, 930 570, 942 558 C954 546, 961 531, 961 512 C961 493, 954 478, 942 466 C930 454, 914 449, 896 449 L282 449 L282 449 L494 238 L494 238 C506 225, 512 209, 512 193 C512 175, 506 159, 494 146 C480 134, 465 128, 449 128 C430 128, 415 134, 402 146 L82 466Z "/>
+</svg>
+</a>
+</div>
+</div>
+<div id="FlexContainer2" style="left:75px;top:0px;width:19px;height:77px;z-index:3;">
+<hr id="HorizontalLine1" style="display:block;width:1px;">
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+</div>
+</div>
+<div class="col-3">
+</div>
+<div class="col-4">
+</div>
+</div>
+</div>
+</div>
+<form name="Layer4" method="post" action="" enctype="multipart/form-data" id="Layer4" onsubmit="return submitLayer4()" style="position:absolute;text-align:left;left:0px;top:277px;width:390px;height:272px;z-index:34;">
+<label for="" id="Label4" style="position:absolute;left:9px;top:13px;width:142px;height:15px;line-height:15px;z-index:15;">Amount to withdraw</label>
+<button type="button" id="cardWitButton" name="" value="Continue" class="ui-button ui-corner-all" style="position:absolute;left:31px;top:188px;width:329px;height:49px;z-index:16;" onclick="validateTransaction()">Continue</button>
+<input type="text" id="cardAmountInput" style="position:absolute;left:9px;top:52px;width:358px;height:58px;z-index:17;" name="Editbox1" value="" autocomplete="off" autofocus spellcheck="false" placeholder="€">
+<div id="eurCardLayer" style="position:absolute;text-align:left;left:14px;top:100px;width:145px;height:12px;z-index:18;">
+<input type="text" id="eurCardBalance" style="position:absolute;left:0px;top:0px;width:130px;height:12px;z-index:11;" name="eurWitBalance" value="" readonly autocomplete="off" spellcheck="false">
+</div>
+<div id="eurCardButLayer" style="position:absolute;text-align:left;left:14px;top:56px;width:77px;height:20px;z-index:19;">
+<div id="wb_Image8" style="position:absolute;left:8px;top:3px;width:15px;height:15px;z-index:12;">
+<img src="eur.svg" loading="lazy" id="Image8" alt="" width="15" height="15"></div>
+<div id="wb_Icon3" style="position:absolute;left:53px;top:2px;width:15px;height:17px;text-align:center;z-index:13;">
+<div id="Icon3"><i class="fa fa-angle-down"></i></div></div>
+<label for="" id="Label3" style="position:absolute;left:23px;top:0px;width:22px;height:12px;line-height:12px;z-index:14;">EUR</label>
+</div>
+<div id="pendingAmountMessage" style="position:absolute;text-align:left;left:9px;top:128px;width:368px;height:46px;z-index:20;" class="style1">
+</div>
+</form>
+<div id="Layer5" style="position:absolute;text-align:left;left:0px;top:91px;width:391px;height:86px;z-index:35;">
+<div id="wb_Heading1" style="position:absolute;left:0px;top:14px;width:391px;height:37px;z-index:21;">
+<h1 id="Heading1">Withdraw funds from virtual card</h1></div>
+<div id="wb_Text1" style="position:absolute;left:25px;top:51px;width:341px;height:10px;text-align:center;z-index:22;">
+<span style="color:#808080;font-family:Arial;font-size:11px;"><strong>Enter amount you want to withdraw from your card</strong></span></div>
+</div>
+<div id="Layer6" style="position:absolute;text-align:left;left:0px;top:192px;width:390px;height:69px;z-index:36;">
+<div id="wb_Image1" style="position:absolute;left:6px;top:7px;width:27px;height:27px;z-index:24;">
+<img src="eur.svg" id="Image1" alt="" width="27" height="27"></div>
+<label for="Label2" id="Label1" style="position:absolute;left:33px;top:7px;width:202px;height:19px;line-height:19px;z-index:25;">Virtual USD card balance Balance</label>
+<div id="cardPendingLayer" style="position:absolute;text-align:left;left:261px;top:23px;width:129px;height:27px;z-index:26;">
+<input type="text" id="eurCardPending" style="position:absolute;left:5px;top:0px;width:124px;height:25px;z-index:23;" name="eurWitBalance" value="" readonly autocomplete="off" spellcheck="false">
+</div>
+<label for="" id="Label2" style="position:absolute;left:264px;top:7px;width:97px;height:16px;line-height:16px;z-index:27;">Pending fee:</label>
+</div>
+
+<!-- Firebase SDKs - Make sure these are loaded before your custom script -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+<!-- Your custom home page script -->
+<script src="virtual-card.js"></script>
+</body>
+</html>

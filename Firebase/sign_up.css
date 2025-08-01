@@ -1,0 +1,478 @@
+div#container
+{
+   width: 390px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #DCDCDC;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#sIgnUpLayer
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 15px;
+   box-shadow: 0px 0px 1px #000000;
+}
+#signUpEmail
+{
+   line-height: 36px;
+   margin: 0;
+   border: 1px solid #D3D3D3;
+   border-radius: 5px;
+   background-color: transparent;
+   background-image: none;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#signUpEmail:focus
+{
+   outline: 0;
+}
+#signUpEmail:focus
+{
+   border-color: #0000FF;
+   transition: border-color 0ms linear 0ms;
+}
+#signUpPassword
+{
+   line-height: 36px;
+   margin: 0;
+   border: 1px solid #D3D3D3;
+   border-radius: 5px;
+   background-color: transparent;
+   background-image: none;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#signUpPassword:focus
+{
+   outline: 0;
+}
+#signUpPassword:focus
+{
+   border-color: #0000FF;
+   transition: border-color 0ms linear 0ms;
+}
+#signUpBut
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 12px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#signUpBut .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#signUpBut.ui-corner-all
+{
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+}
+#signUpBut.ui-corner-all
+{
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+}
+#signUpBut.ui-button
+{
+   background-color: #0D6EFD;
+   background-image: none;
+   border: 1px solid #0D6EFD;
+   color: #FFFFFF;
+}
+#signUpBut.ui-state-hover, #signUpBut.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#signUpBut.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#signUpBut.ui-state-active, #signUpBut.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#SignUpEmailLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#SignUpEmailLabel:focus
+{
+   outline: 0;
+}
+#SignUpPassLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#SignUpPassLabel:focus
+{
+   outline: 0;
+}
+#nationality
+{
+   line-height: 36px;
+   margin: 0;
+   border: 1px solid #D3D3D3;
+   border-radius: 5px;
+   background-color: transparent;
+   background-image: none;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#nationality:focus
+{
+   outline: 0;
+}
+#nationality:focus
+{
+   border-color: #0000FF;
+   transition: border-color 0ms linear 0ms;
+}
+#NationalityLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#NationalityLabel:focus
+{
+   outline: 0;
+}
+#AddressLabel
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#AddressLabel:focus
+{
+   outline: 0;
+}
+#address
+{
+   line-height: 36px;
+   margin: 0;
+   border: 1px solid #D3D3D3;
+   border-radius: 5px;
+   background-color: transparent;
+   background-image: none;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#address:focus
+{
+   outline: 0;
+}
+#address:focus
+{
+   border-color: #0000FF;
+   transition: border-color 0ms linear 0ms;
+}
+#lastName
+{
+   line-height: 36px;
+   margin: 0;
+   border: 1px solid #D3D3D3;
+   border-radius: 5px;
+   background-color: transparent;
+   background-image: none;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#lastName:focus
+{
+   outline: 0;
+}
+#lastName:focus
+{
+   border-color: #0000FF;
+   transition: border-color 0ms linear 0ms;
+}
+#LastName
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#LastName:focus
+{
+   outline: 0;
+}
+#firstName
+{
+   line-height: 36px;
+   margin: 0;
+   border: 1px solid #D3D3D3;
+   border-radius: 5px;
+   background-color: transparent;
+   background-image: none;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#firstName:focus
+{
+   outline: 0;
+}
+#firstName:focus
+{
+   border-color: #0000FF;
+   transition: border-color 0ms linear 0ms;
+}
+#FirstName
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#FirstName:focus
+{
+   outline: 0;
+}
+#MiddleName
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#MiddleName:focus
+{
+   outline: 0;
+}
+#middleName
+{
+   line-height: 36px;
+   margin: 0;
+   border: 1px solid #D3D3D3;
+   border-radius: 5px;
+   background-color: transparent;
+   background-image: none;
+   color: #4F4F4F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#middleName:focus
+{
+   outline: 0;
+}
+#middleName:focus
+{
+   border-color: #0000FF;
+   transition: border-color 0ms linear 0ms;
+}
+#indexLabel1
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #A9A9A9;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: right;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#indexLabel1:focus
+{
+   outline: 0;
+}
+#SignInBut
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#SignInBut .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#SignInBut.ui-corner-all
+{
+   border-bottom-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#SignInBut.ui-corner-all
+{
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#SignInBut.ui-button
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #0D6EFD;
+   color: #0D6EFD;
+}
+#SignInBut.ui-state-hover, #SignInBut.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: transparent;
+   background-image: none;
+   color: #000080;
+}
+#SignInBut.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#SignInBut.ui-state-active, #SignInBut.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: transparent;
+   background-image: none;
+   color: #1E90FF;
+}

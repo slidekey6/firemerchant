@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Merchantbnk International bank</title>
+<meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
+<link href="fontawesome6.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&800&subset=latin&display=swap" rel="stylesheet">
+<link href="Merchant.css" rel="stylesheet">
+<link href="dashboard.css" rel="stylesheet">
+<script src="jquery-3.7.1.slim.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb20.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<div id="page-preloader">
+    <div class="page-spinner"></div>
+</div>
+
+<header id="Layer1" style="position:fixed;text-align:center;left:0px;top:0px;width:390px;height:86px;z-index:7777;">
+<div id="Layer1_Container" style="width:390px;height:86px;position:relative;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto;text-align:left;">
+<div id="disLayer" style="position:fixed;text-align:left;left:0px;top:20px;width:174px;height:40px;z-index:9999;">
+</div>
+<input type="text" id="displayName" style="position:absolute;left:5px;top:29px;width:153px;height:20px;" name="displayName" value="" readonly autocomplete="off" spellcheck="false">
+<div id="Nav" style="position:fixed;text-align:left;left:220px;top:20px;width:111px;height:47px;">
+<div id="UserMenu" style="position:absolute;text-align:left;left:0px;top:8px;width:68px;height:30px;">
+<button type="submit" id="ThemeableButton1" onclick="window.location.href='./settings.html';return false;" name="" value="" class="ui-button ui-corner-all" style="position:absolute;left:0px;top:0px;width:30px;height:30px;"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
+<button type="button" id="ThemeableButton2" onclick="ShowObject('profileLayer', 1);return false;" name="" value="" class="ui-button ui-corner-all" style="position:absolute;left:30px;top:0px;width:30px;height:30px;"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
+</div>
+<div id="NavBar" style="position:absolute;text-align:left;left:76px;top:6px;width:35px;height:35px;">
+<div id="wb_NavClose" style="position:absolute;left:2px;top:2px;width:30px;height:30px;visibility:hidden;text-align:center;">
+<a href="#" onclick="ShowObjectWithEffect('wb_NavClose', 0, 'scale', 100);ShowObject('Panel', 0);ShowObjectWithEffect('wb_NavOpen', 1, 'fold', 100);return false;"><div id="NavClose"><i class="NavClose"></i></div></a></div>
+<div id="wb_NavOpen" style="position:absolute;left:2px;top:2px;width:30px;height:30px;text-align:center;">
+<a href="#" onclick="ShowObjectWithEffect('wb_NavOpen', 0, 'scale', 100);ShowObject('Panel', 1);ShowObjectWithEffect('wb_NavClose', 1, 'fold', 100);return false;"><div id="NavOpen"><i class="NavOpen"></i></div></a></div>
+</div>
+</div>
+</div>
+</header>
+<nav id="Panel" style="position:fixed;overflow:hidden;text-align:left;visibility:hidden;left:0px;top:0px;width:198px;height:859px;z-index:9999;">
+<div id="wb_page1CssMenu1" style="position:absolute;left:1px;top:151px;width:183px;height:300px;">
+<ul id="page1CssMenu1" role="menubar" class="nav" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+<li role="menuitem" class="nav-item firstmain" itemprop="name"><a class="nav-link" href="./home.html" target="_self" itemprop="url"><i class="fa fa-house-chimney-window"></i>&nbsp;&nbsp;Home</a>
+</li>
+<li role="menuitem" class="nav-item" itemprop="name"><a class="nav-link" href="./accounts.html" target="_self" itemprop="url"><i class="fa fa-wallet"></i>&nbsp;&nbsp;Account</a>
+</li>
+<li role="menuitem" class="nav-item" itemprop="name"><a class="nav-link" href="./payment.html" target="_self" itemprop="url"><i class="fa fa-clone"></i>&nbsp;&nbsp;Payment</a>
+</li>
+<li role="menuitem" class="nav-item" itemprop="name"><a class="nav-link" href="./transactions.html" target="_self" itemprop="url"><i class="fa fa-chart-line"></i>&nbsp;&nbsp;Transaction</a>
+</li>
+<li role="menuitem" class="nav-item" itemprop="name"><a class="nav-link" href="./card.html" target="_self" itemprop="url"><i class="fa fa-credit-card"></i>&nbsp;&nbsp;Virtual&nbsp;Cards</a>
+</li>
+<li role="menuitem" class="nav-item" itemprop="name"><a class="nav-link" href="./reports.html" target="_self" itemprop="url"><i class="fa fa-file-invoice"></i>&nbsp;&nbsp;Statements</a>
+</li>
+</ul>
+</div>
+<div id="Layer2" style="position:fixed;text-align:left;left:0px;top:0px;width:170px;height:90px;">
+</div>
+<div id="wb_Image1" style="position:absolute;left:35px;top:17px;width:103px;height:67px;">
+<img src="app.grey.co.svg" id="Image1" alt="" width="103" height="103"></div>
+</nav>
+<div id="profileLayer" style="position:fixed;text-align:left;visibility:hidden;left:170px;top:75px;width:220px;height:285px;z-index:9999;" onmouseleave="ShowObject('profileLayer', 0);return false;">
+<div id="fullNameLayer" style="position:absolute;text-align:left;left:0px;top:1px;width:220px;height:40px;">
+<div id="wb_personalAccount" style="position:absolute;left:10px;top:29px;width:191px;height:10px;">
+<span style="color:#000000;font-family:Arial;font-size:11px;">PERSONAL ACCOUNT</span></div>
+<input type="text" id="fullName" style="position:absolute;left:8px;top:12px;width:201px;height:16px;" name="Name" value="" readonly autocomplete="off" spellcheck="false">
+</div>
+<hr id="profileHorizontalLine1" style="position:absolute;left:0px;top:51px;width:220px;">
+<hr id="profileHorizontalLine" style="position:absolute;left:0px;top:231px;width:220px;">
+<div id="profLayer" style="position:absolute;text-align:left;left:7px;top:67px;width:213px;height:36px;" onclick="window.location.href='./profile.html';ShowObject('profileLayer', 0);return false;">
+<div id="wb_profileIcon" style="position:absolute;left:3px;top:10px;width:16px;height:16px;text-align:center;">
+<div id="profileIcon"><i class="profileIcon"></i></div></div>
+<label for="" id="profile" style="position:absolute;left:30px;top:5px;width:164px;height:19px;line-height:19px;">Your Profile</label>
+</div>
+<div id="accountLayer" style="position:absolute;text-align:left;left:7px;top:118px;width:213px;height:36px;" onclick="window.location.href='./settings.html';ShowObject('profileLayer', 0);return false;">
+<div id="wb_SetIcon" style="position:absolute;left:3px;top:10px;width:16px;height:16px;text-align:center;">
+<div id="SetIcon"><i class="SetIcon"></i></div></div>
+<label for="" id="AccountSet" style="position:absolute;left:30px;top:5px;width:164px;height:19px;line-height:19px;">Account Settings</label>
+</div>
+<div id="contactLayer" style="position:absolute;text-align:left;left:7px;top:165px;width:213px;height:36px;">
+<div id="wb_contactIcon" style="position:absolute;left:3px;top:10px;width:16px;height:16px;text-align:center;">
+<div id="contactIcon"><i class="contactIcon"></i></div></div>
+<label for="" id="contact" style="position:absolute;left:30px;top:5px;width:164px;height:19px;line-height:19px;">Contact Supports</label>
+</div>
+<div id="logoutLayer" style="position:absolute;text-align:left;left:7px;top:242px;width:213px;height:36px;">
+<div id="wb_logoutIcon" style="position:absolute;left:3px;top:10px;width:16px;height:16px;text-align:center;">
+<div id="logoutIcon"><i class="fa fa-right-from-bracket"></i></div></div>
+<label for="" id="logout" style="position:absolute;left:26px;top:5px;width:124px;height:19px;line-height:19px;">Logout</label>
+</div>
+</div>
+
+
+<!-- Firebase SDKs - Make sure these are loaded before your custom script -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+
+<script src="dashboard_script.js"></script>
+
+
+</body>
+</html>
